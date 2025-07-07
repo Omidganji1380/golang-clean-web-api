@@ -1,17 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HealthHandler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/api/handlers/health.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PostgresConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RedisConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ServerConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TestHandler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/api/handlers/test_handler.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="header">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/api/handlers/test_handler.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="personData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/src/api/handlers/test_handler.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="scannedPathMapping">
       <map>
+        <entry key="file://$PROJECT_DIR$/src/api/api.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751877396908" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/api/handlers/health.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750779787136" />
+              <option name="schema">
+                <list>
+                  <option value="HealthHandler" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/api/handlers/test_handler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751655731696" />
+              <option name="schema">
+                <list>
+                  <option value="header" />
+                  <option value="personData" />
+                  <option value="TestHandler" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/api/middlewares/Limitter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751877058157" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/api/middlewares/test_middleware.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751876673590" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/api/routes/health.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1750780075784" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/api/routes/test_router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751653869297" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/api/validations/custom.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751877396903" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/src/cmd/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1750675708971" />
+              <option name="lastModified" value="1751108367334" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/src/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751106446816" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                  <option value="ServerConfig" />
+                  <option value="PostgresConfig" />
+                  <option value="RedisConfig" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastTimeChecked" value="1750674781123" />
+    <option name="tableStructMapping">
+      <map>
+        <entry key="config" value="Config" />
+        <entry key="header" value="header" />
+        <entry key="health_handler" value="HealthHandler" />
+        <entry key="person_data" value="personData" />
+        <entry key="postgres_config" value="PostgresConfig" />
+        <entry key="redis_config" value="RedisConfig" />
+        <entry key="server_config" value="ServerConfig" />
+        <entry key="test_handler" value="TestHandler" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1751876259685" />
   </component>
 </project>
